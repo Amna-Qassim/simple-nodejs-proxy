@@ -1,0 +1,17 @@
+{
+  "name": "simple-nodejs-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/daryl-cecile/simple-nodejs-proxy.git",
+  "author": "Daryl <darylcecile@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.1"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
